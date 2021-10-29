@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu&display=swap');
+
+html {
+    font-family: 'Inter', sans-serif;
+    background: url("../image/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin :0;
+    padding: 0;
+}
+
+
+
+.header {
+	background-color: transparent;
+    display: flex;
+}
+
+.header p {
+    transform: translate(0px,30px);
+    flex-wrap: wrap;
+    flex-basis: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 5050px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+
+#container {
+    display: flex;
+    width: 100%;
+}
+
+#carte {
+    display: flex;
+    background: #8565c4;
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+    transition:  0.5s;
+    flex-flow: row wrap;
+    box-shadow: 5px 2px 2px lightpink;
+}
+
+#carte a {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#carte img {
+    width: 100%;
+    height: 60%;
+    margin-top: 10px;
+}
+
+#carte:hover {
+    transform: translate(0px, -20px);
+    background: #9477cb;
+    transition: 0.5s;
+    box-shadow: 10px 5px 5px lightpink;
+}
