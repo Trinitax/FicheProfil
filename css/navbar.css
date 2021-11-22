@@ -41,6 +41,7 @@ body {
     justify-content: center;
     border: 1px solid white;
     transform: translate(0px,10px);
+    margin-left: 10px;
 }
 
 .header a:hover {
@@ -136,6 +137,20 @@ body {
 
 #cardcomp h3 {
     color: white;
+}
+
+#cardcomp1 {
+    width: 80%;
+    margin: 0 auto;
+    background:  #2d2d2d;
+    border-radius: 10px;
+}
+
+#cardcomp1 h1 {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+
 }
 
 table {
@@ -249,25 +264,33 @@ table {
     margin: 0 auto;
     background:  #5e3d9f;
     border-radius: 10px;
+    text-align: center;
 }
         
 #contactcard h1 {
     text-align: center;
     padding: 10px;
     color: white;
+    font-size: 3em;
         
 }
         
-#contactcard p {
+#contactcard h2 {
     color: white;
-    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+    background: #1c334e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+    font-size: 2em;
     }
 
 #contactcard a {
     color: white;
     text-decoration: none;
-    text-align: center;
 }
+
 
 .iframe {
     width: 90%;
@@ -277,3 +300,77 @@ table {
     display: block;
     padding: 20px;
 }
+
+.btncontact {
+    border-color: #1c334e;
+    color: #000;
+    background-image: -webkit-linear-gradient(45deg, #1c334e 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #1c334e 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 1000ms ease-in-out;
+    transition: background 1000ms ease-in-out;
+    padding: 30px;
+    border: 2px solid #1c334e;
+    border-radius: 0.6em;
+    background-color: transparent;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+  }
+
+  .btncontact:hover {
+    background-position: 0;
+  }
+
+  .profile {
+      border-radius: 10em;
+      width: 256px;
+      height: 256px;
+      object-fit: cover;
+      margin: 0 auto;
+      display: block;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      box-shadow: 10px 5px 10px grey;
+  }
+
+  .presentation {
+      width: 70%;
+      font-size: 1.5em;
+      margin-bottom: 30px;
+      text-align: justify;
+      margin: 0 auto;
+      display: block;
+  }
+
+  .presentationa {
+      color: white;
+      text-decoration: none underline;
+      text-align: center;
+      font-size: 1.5em;
+      display: block;
+      margin-top: 10px;
+  }
+
+  .presentationa::before {
+      content: "↳";
+  }
+  .cv {
+      height: 128px;
+      width: 128px;
+      margin: 0 auto;
+      display: block;
+      margin-top: 40px;
+  }
+
+  #comphu {
+    display: grid;
+    grid-template-columns: repeat(5, 20fr);
+    grid-auto-rows: auto;
+    color: white;
+    font-size: 1.4em;
+    padding: 20px;
+    row-gap: 20px;
+}
+
